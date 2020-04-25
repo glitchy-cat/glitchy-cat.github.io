@@ -13,6 +13,7 @@ html {
     text-align: right;
     height: 70px;
     line-height: 70px;
+
 }
 
 .menu {
@@ -71,3 +72,22 @@ label {
 
 }
 
+/* Showcase area */
+
+#showcase {
+    background: url("images/notebook-and-laptop.jpg") no-repeat center center/cover;
+    height: 88.6vh;
+}
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
