@@ -115,3 +115,41 @@ label {
     padding: 1rem 2rem;
     border: 1px solid gray;
 }
+
+/* About me section */
+#about {
+    padding: 5rem 0;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#about p.lead {
+    margin-bottom: 1rem;
+    margin-left: 10%;
+}
+
+#about .about-content {
+    display: flex;
+}
+
+#about .about-text,
+#about .about-image {
+    flex: 1;
+}
+
+#about .about-text {
+    text-align: justify;
+}
+
+#about .about-image img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius:10%;
+    margin-top: 15px;
+}
+
