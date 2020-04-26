@@ -91,3 +91,27 @@ label {
     right: 0;
     background: rgba(0, 0, 0, 0.5);
 }
+
+.showcase-content h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.showcase-content .btn {
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+    transition: color 0.2s, background 0.2s;
+}
+
+.showcase-content .btn:hover {
+    background: gray;
+    color: #fff
+}
+
+.btn {
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid gray;
+}
