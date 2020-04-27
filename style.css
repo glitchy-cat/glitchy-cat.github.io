@@ -121,10 +121,11 @@ label {
     padding: 5rem 0;
 }
 
-#about h2 #skills h2 {
+#about h2, #skills h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
+    padding-left: 10;
 }
 
 #about p.lead {
@@ -148,8 +149,8 @@ label {
 #about .about-image img {
     display: block;
     margin: auto;
-    width: 90%;
-    border-radius:10%;
+    width: 80%;
+    border-radius:20%;
     margin-top: 15px;
 }
 
@@ -161,5 +162,4 @@ padding: 5rem 0;
 #skills .boxes {
     display: flex;
 }
-
 
