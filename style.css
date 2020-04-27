@@ -121,7 +121,7 @@ label {
     padding: 5rem 0;
 }
 
-#about h2 {
+#about h2 #skills h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -152,4 +152,14 @@ label {
     border-radius:10%;
     margin-top: 15px;
 }
+
+/*skills section*/
+#skills {
+padding: 5rem 0;
+}
+
+#skills .boxes {
+    display: flex;
+}
+
 
