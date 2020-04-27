@@ -15,6 +15,10 @@ html {
     color: #333;
 }
 
+.bg-light-2 {
+    background: #C8C6C4;
+}
+
 /*navbar*/
 
 .nav {
@@ -130,7 +134,8 @@ label {
     padding: 5rem 0;
 }
 
-#about h2, #skills h2 {
+#about h2, #skills h2,
+ #projects h2, #contact h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -182,4 +187,31 @@ padding: 5rem 0;
     font-size: 1.3rem ;
     text-align: center;
 
+}
+
+/*projects section*/
+
+#projects .bg-light-2 {
+    background: #6B4C3E;
+}
+
+#projects {
+    padding: 5rem 0;
+    
+    }
+    
+#projects .boxes {
+        display: flex;
+ }
+    
+#projects .box {
+        
+        background: #fff;
+        flex: 1;
+        padding: 3rem;
+        margin: 0 3rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #d1d1d1;
+        font-size: 1.3rem ;
+        text-align: center;
 }
