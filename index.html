@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!--Nab bar-->
+    <!--Nav bar-->
     <header>
         <div class="nav">
             <label for="toggle">&#9776;</label>
@@ -45,10 +45,11 @@
             <div class="about-content">
                 <div class="about-text">
                     <p class="lead">Aspiring full-stack web developer with a passion for design.</p>
-                    <p class="lead">Changing careers into web development has been an incredibly rewarding process for me.
+                    <p class="lead">Changing careers into web development has been an incredibly rewarding process for
+                        me.
                         I love to apply my designing and problem solving skills to help turn peoples ideas
                         into webpages that help their businesses grow and succeed.</p>
-                    <p class="lead">Aside from web development my intrests include: competitive gaming, game development 
+                    <p class="lead">Aside from web development my intrests include: competitive gaming, game development
                         volunteer work and digital art. I hope to one day include my hobbies into my career.
                     </p>
                 </div>
@@ -122,30 +123,43 @@
     <section id="contact" class="bg-light">
         <div class="container">
             <h2>Want to get in contact?</h2><br>
-            <h3>Send me a message!</h3>
+        <div class="link-container">
+            <div class="link-box">
+                <div class="link-group">
+                    <a href="https://www.linkedin.com/in/jimmy-bull-baa3b61a7">Linkedin</a>
+                </div>
+                <div class="link-group">
+                    <a href="https://github.com/glitchy-cat">github</a>
+                </div>
+            </div>
+        </div>
+            
+            <h3> Or send me a message!</h3>
             <div class="form-container">
                 <div class="form-box">
-                    <form action="">
+                    <form action="https://formspree.io/xbjzrdvd" method="POST">
+
                         <div class="form-group">
-                            <label for="first-name">First name:</label>
+                            <label for="first-name" name="f-name">First name:</label>
                             <input type="text" placeholder="Enter your first name">
                         </div>
                         <div class="form-group">
-                            <label for="first-name">Last Name:</label>
+                            <label for="first-name" name="l-name">Last Name:</label>
                             <input type="text" placeholder="Enter your first name">
                         </div>
                         <div class="form-group">
-                            <label for="email">Email:</label>
+                            <label for="email" name="_replyto">Email:</label>
                             <input type="email" placeholder="Enter your email address">
                         </div>
                         <div class="form-group">
-                            <label for="message">Message:</label>
+                            <label for="message" name="reply">Message:</label>
                             <textarea rows="7" placeholder="Write your message here!"></textarea>
                         </div>
                         <input type="submit" value="Send" class="contact-btn">
                     </form>
                 </div>
             </div>
+        </div>
     </section>
 
 </body>

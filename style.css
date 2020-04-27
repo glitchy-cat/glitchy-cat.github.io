@@ -143,6 +143,7 @@ label {
 
 #about p.lead {
     font-size: 1.5rem;
+    line-height: 2rem;
     margin-bottom: 1rem;
     margin-left: 10%;
 }
@@ -192,10 +193,6 @@ padding: 5rem 0;
 
 /*projects section*/
 
-#projects .bg-light-2 {
-    background: #6B4C3E;
-}
-
 #projects {
     padding: 5rem 0;
     
@@ -227,6 +224,33 @@ padding: 5rem 0;
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center; 
+    align-items: center;
+    justify-content: space-around; 
+    
+}   
+
+.link-box {  
+    width: 30%;
+    margin-top: 10px;
+    
+}
+
+.link-group {
+    background: #fff;
+        flex: 1;
+        padding: 3rem;
+        margin: 0 1rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #d1d1d1;
+        font-size: 1.3rem ;
+        text-align: center;
+        
 }
 
 #contact h3 {
