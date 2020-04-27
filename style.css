@@ -6,7 +6,16 @@
 
 html {
     font-family: helvetica, sans-serif;
+    
 }
+
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/*navbar*/
 
 .nav {
     border-bottom: 1px solid black;
@@ -125,7 +134,6 @@ label {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
-    padding-left: 10;
 }
 
 #about p.lead {
@@ -163,3 +171,15 @@ padding: 5rem 0;
     display: flex;
 }
 
+#skills .box {
+    
+    background: #fff;
+    flex: 1;
+    padding: 3rem;
+    margin: 0 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    font-size: 1.3rem ;
+    text-align: center;
+
+}
