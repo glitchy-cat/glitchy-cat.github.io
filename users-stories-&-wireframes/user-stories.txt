@@ -1,0 +1,8 @@
+USER STORIES
+---------------
+
+As an employer I want to look at Jimmy's previous projects to help determine if he is  a qualified web-developer.
+
+As a future client I want to get in contact with Jimmy via email to contact him about building a website for my business.
+
+As a student I want to see what skills Jimmy has to see can colaborate with me for my next web-development project. 
